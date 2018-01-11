@@ -46,8 +46,8 @@ namespace FormsListViewSample
 				//add views to the view hierarchy
 				verticaLayout.Children.Add(nameLabel);
 				verticaLayout.Children.Add(typeLabel);
-				horizontalLayout.Children.Add(verticaLayout);
-				horizontalLayout.Children.Add(image);
+                horizontalLayout.Children.Add(image);
+                horizontalLayout.Children.Add(verticaLayout);
 				
 				// add to parent view
 				View = horizontalLayout;
